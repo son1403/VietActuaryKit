@@ -1,6 +1,6 @@
 # VietActuaryKit
 
-VietActuaryKit is a public Obsidian-compatible knowledge-base template for actuaries, data analysts, actuarial analysts, and AI coding/data agents working with Vietnam non-life insurance topics.
+VietActuaryKit is a public compatible knowledge-base template for actuaries, data analysts, actuarial analysts, and AI coding/data agents working with Vietnam non-life insurance topics.
 
 It includes reusable playbooks, data contracts, regulatory source references, privacy guardrails, app/SaaS engineering checklists, and agent operating rules. It is designed to be cloned as an Obsidian vault or copied into an existing vault.
 
