@@ -11,7 +11,7 @@ tags: [agentbrain, codex-ready, non-life-insurance, actuarial, data-analytics, s
 ## Mục tiêu
 VietActuaryKit là kho tri thức Obsidian để Codex và các agent hỗ trợ công việc data analyst, actuarial analyst, app builder và SaaS builder.
 
-Kho này lưu tri thức nghiệp vụ, playbook phân tích, data contracts, guardrails pháp lý, engineering playbooks, UX checklist, security checklist và prompt vận hành agent. Không lưu dữ liệu khách hàng thật, secrets, claim notes định danh, production credentials hoặc thông tin cá nhân thô.
+Kho này lưu tri thức nghiệp vụ, playbook phân tích, data contracts, guardrails pháp lý, engineering playbooks, UX checklist, security checklist và prompt vận hành agent. 
 
 ## Highest Priority
 - [[RTK Token Optimization Playbook]]
