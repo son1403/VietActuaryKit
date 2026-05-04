@@ -1,0 +1,32 @@
+# Obsidian local state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/plugins/
+.obsidian/themes/
+.trash/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets and local config
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.*
+config.local.*
+
+# Private/local notes
+08_Project_Knowledge/*
+!08_Project_Knowledge/README.md
+09_Decision_Log/*
+!09_Decision_Log/README.md
+99_Archive/
+_Private/
+private/
