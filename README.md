@@ -62,7 +62,7 @@ Start here:
 | Actuarial analytics | Loss ratio and pricing pack playbooks |
 | Data contracts | Policy and claim data contract templates |
 | Data privacy | PII/sensitive data checklist and agent guardrails |
-| Agent operations | Codex operating guide, RTK token optimization, skills index pattern |
+| Agent operations | Codex operating guide, agent learning workflow, RTK token optimization, skills index pattern |
 | App/SaaS engineering | Product discovery, architecture, API, database, auth/RBAC, billing, deployment |
 | Security and governance | Secret management, audit log, retention, web app security checklist |
 | Templates | Playbook, regulation note, data contract, project `AGENTS.md` |
@@ -97,12 +97,23 @@ VietActuaryKit is designed to be readable by coding and data agents. The intende
 
 1. Read `AGENTS.md`.
 2. Read `01_Dashboard/VietActuaryKit Home.md`.
-3. For coding or repo exploration, use `RTK.md` and `12_Engineering_Playbooks/RTK Token Optimization Playbook.md`.
-4. For insurance/data work, read `03_Regulatory_Knowledge/Data Privacy Checklist.md`.
-5. For pricing/loss ratio work, read the relevant playbook in `05_Actuarial_Playbooks/`.
-6. For app/SaaS work, read product, architecture, auth/RBAC, security, and deployment playbooks.
+3. Read `07_Agent_Instructions/Agent Learning Workflow.md`.
+4. For coding or repo exploration, use `RTK.md` and `12_Engineering_Playbooks/RTK Token Optimization Playbook.md`.
+5. For insurance/data work, read `03_Regulatory_Knowledge/Data Privacy Checklist.md`.
+6. For pricing/loss ratio work, read the relevant playbook in `05_Actuarial_Playbooks/`.
+7. For app/SaaS work, read product, architecture, auth/RBAC, security, and deployment playbooks.
 
 The key rule: agents should not jump directly into code or analysis before checking data privacy, business assumptions, data grain, and regulatory context.
+
+### Learning Loop For Agents
+
+The agent learning flow is intentionally simple:
+
+```text
+Orient -> Clarify -> Simplify -> Execute surgically -> Verify -> Capture reusable learning
+```
+
+This is adapted for actuarial and insurance analytics from practical agent guidelines such as think-before-coding, simplicity first, surgical changes, and goal-driven execution.
 
 ## Regulatory Foundation
 
@@ -128,24 +139,7 @@ This repository is a public template. It intentionally excludes:
 
 When adapting this template, keep sensitive project material in your private vault.
 
-## Suggested Use Cases
 
-- Build a private actuarial operating manual.
-- Standardize loss ratio and pricing review workflows.
-- Create consistent data contracts for policy and claim analytics.
-- Give AI agents guardrails before they work with insurance datasets.
-- Bootstrap internal app/SaaS requirements for actuarial or analytics teams.
-- Maintain a regulatory source register with practical analyst checklists.
-
-## Roadmap Ideas
-
-- Reserving/IBNR playbook.
-- IFRS 17 analyst notes.
-- Reinsurance analytics playbook.
-- Power BI semantic model checklist.
-- SQL analytics pattern library.
-- Synthetic sample datasets for demonstrations.
-- Vietnamese glossary of actuarial and non-life insurance terms.
 
 ## Contributing
 

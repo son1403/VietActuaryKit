@@ -15,6 +15,7 @@ Kho này lưu tri thức nghiệp vụ, playbook phân tích, data contracts, gu
 
 ## Highest Priority
 - [[RTK Token Optimization Playbook]]
+- [[Agent Learning Workflow]]
 - [[Available Codex Skills Index]]
 
 ## Start Here
@@ -55,12 +56,13 @@ Kho này lưu tri thức nghiệp vụ, playbook phân tích, data contracts, gu
 
 ## Agent Rules
 1. Dùng [[RTK Token Optimization Playbook]] trước mọi task coding/debugging/repo exploration/test/build/lint nếu RTK có sẵn.
-2. Đọc [[Codex Operating Guide]] trước khi dùng các note khác.
-3. Với dữ liệu policy, claim, customer hoặc dữ liệu cá nhân, chạy [[Data Privacy Checklist]] trước.
-4. Với pricing, reserving, claim analytics hoặc reporting, link về playbook và regulatory note liên quan.
-5. Với app/SaaS, đọc [[SaaS Product Discovery Checklist]], [[App Architecture Playbook]], [[Auth and RBAC Playbook]] và [[Web App Security Checklist]] nếu có auth/API/dữ liệu thật.
-6. Không kết luận một phân tích là tuân thủ pháp luật nếu chưa có nguồn, ngày hiệu lực và xác nhận Legal/Compliance.
-7. Không lưu secrets, production credentials hoặc dữ liệu khách hàng thật trong vault.
+2. Dùng [[Agent Learning Workflow]] để orient, clarify, execute surgically, verify và capture reusable learning.
+3. Đọc [[Codex Operating Guide]] trước khi dùng các note khác.
+4. Với dữ liệu policy, claim, customer hoặc dữ liệu cá nhân, chạy [[Data Privacy Checklist]] trước.
+5. Với pricing, reserving, claim analytics hoặc reporting, link về playbook và regulatory note liên quan.
+6. Với app/SaaS, đọc [[SaaS Product Discovery Checklist]], [[App Architecture Playbook]], [[Auth and RBAC Playbook]] và [[Web App Security Checklist]] nếu có auth/API/dữ liệu thật.
+7. Không kết luận một phân tích là tuân thủ pháp luật nếu chưa có nguồn, ngày hiệu lực và xác nhận Legal/Compliance.
+8. Không lưu secrets, production credentials hoặc dữ liệu khách hàng thật trong vault.
 
 ## Maintenance
 - Review regulatory source register theo quý.

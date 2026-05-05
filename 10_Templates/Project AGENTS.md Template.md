@@ -45,6 +45,7 @@ Before large product, engineering, security, data, or compliance tasks, read:
 
 ## Engineering Rules
 - Use RTK for token-efficient command output when available.
+- Follow the agent learning loop: orient, clarify, simplify, execute surgically, verify, then capture reusable learning.
 - Follow existing patterns.
 - Do not weaken auth, tenant isolation, privacy, or compliance guardrails.
 - Add or update tests for behavior changes.

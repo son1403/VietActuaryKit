@@ -8,6 +8,20 @@ If RTK is installed, prefer explicit wrappers such as `rtk git status`, `rtk git
 ## Purpose
 This repository is a public Obsidian-compatible knowledge-base template for Vietnam non-life insurance, actuarial analytics, data workflows, app/SaaS engineering, and AI agent guardrails.
 
+## Agent Learning Workflow
+Before substantial work, follow `07_Agent_Instructions/Agent Learning Workflow.md`.
+
+Use this loop:
+
+1. Orient: read the minimum relevant context.
+2. Clarify: surface assumptions, ambiguity, and tradeoffs before acting.
+3. Simplify: choose the smallest useful action.
+4. Execute surgically: touch only what the task requires.
+5. Verify: run a focused check.
+6. Capture reusable learning: update templates/playbooks only with generic, public-safe lessons.
+
+This workflow is inspired by practical agent guidelines such as think-before-coding, simplicity first, surgical changes, and goal-driven execution.
+
 ## Privacy and Public-Safety Rules
 Do not add secrets, credentials, API keys, production config, customer data, policy data, claim data, internal company workflows, proprietary pricing logic, reserving assumptions, commission structures, or confidential business data.
 

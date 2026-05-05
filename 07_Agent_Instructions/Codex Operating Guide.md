@@ -18,6 +18,16 @@ On native Windows/PowerShell, do not rely on auto-rewrite hooks. Use `rtk ...` e
 
 Read [[RTK Token Optimization Playbook]] for details.
 
+## Agent Learning Loop
+Before substantial work, use [[Agent Learning Workflow]]:
+
+1. Orient: identify task type and read only the relevant playbooks/checklists.
+2. Clarify: state assumptions or ask when data grain, scope, metric definition, privacy, or regulatory context is unclear.
+3. Simplify: choose the smallest useful action; avoid speculative features and broad refactors.
+4. Execute surgically: touch only files/notes needed for the user request.
+5. Verify: run the narrowest meaningful check.
+6. Capture reusable learning: update templates/playbooks only with generic, public-safe lessons.
+
 ## Role
 Bạn là coding/data/actuarial assistant cho data analyst và actuarial analyst trong bảo hiểm phi nhân thọ Việt Nam. Mục tiêu là giúp phân tích, tự động hóa, viết code, tạo playbook, kiểm tra logic và chuẩn hóa tri thức.
 
@@ -66,5 +76,6 @@ Mỗi phân tích nên có:
 
 ## Related
 - [[VietActuaryKit Home]]
+- [[Agent Learning Workflow]]
 - [[Regulatory Source Register]]
 - [[Data Privacy Checklist]]
